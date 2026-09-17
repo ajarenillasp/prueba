@@ -1,0 +1,392 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Julia
+.julia/
+*.ji
+*.jl.cov
+*.jl.log
+Coverage.mat
+Manifest.toml
+plotdata.dat
+plot.png
+.juno-workspace/
+
+# Specific to your project structure
+repo_original/
+archivos_corregidos/1_extincion/*.pyc
+*.pyc
+
+# Environment variables
+.env*
+!env.sample
+!env.example
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+.deps/
+_deps/
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Testing
+.pytest_cache/
+.hypothesis/
+.coverage*
+
+# Documentation
+docs/_build/
+
+# IPython
+.ipynb_checkpoints
+
+# Local configuration
+.local/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Package manager directories
+node_modules/
+jspm_packages/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components/
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Typescript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm helpers
+.npm
+.yarn
+.yarn-cache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Yarn install dependencies
+yarn-error.log
+
+# Python Poetry
+poetry.lock
+
+# SageMath parsed files
+*.sage.py
+
+# Rope project settings
+.ropeproject
+
+# Support IPython magic %%writefile
+*.ipy
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# pdm
+pdm.lock
+pdm.toml
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath cached files
+*.sage-cache
+
+# Environments
+.envrc
+.env.local
+.env.dev
+.env.prod
+.env.staging
+.env.testing
+
+# misc
+*.swp
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+*.kdev4
+*.komodoproject
+*.komodo-config
+*.pid
+*.seed
+*.pid.lock
+*.sock
+*.out
+*.bin
+*.dat
+*.dump
+*.stackdump
+core
+*.core
+*.db
+*.sql
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.db-journal
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+.Trashes
+._*
+.Spotlight-V100
+.TemporaryItems
+.localized
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+*.kdev4
+*.komodoproject
+*.komodo-config
+*.pid
+*.seed
+*.pid.lock
+*.sock
+*.out
+*.bin
+*.dat
+*.dump
+*.stackdump
+core
+*.core
+*.db
+*.sql
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.db-journal
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+.Trashes
+._*
+.Spotlight-V100
+.TemporaryItems
+.localized
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
