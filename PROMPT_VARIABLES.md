@@ -101,7 +101,7 @@ por delante, anclada, y el fuego se detiene al llegar). Más agua (terrestre y a
 | `SHIFT_MIN` | 12 × 60 | min | relevo | doctrina |
 | **umbrales de intensidad** `I_MANUAL` · `I_MAQUINA` · `I_INEFECTIVO` | **346** · **1.731** · **3.461** | kW/m | qué medio puede atacar: manual hasta 346; maquinaria **y aviones** hasta 1.731; por encima de 3.461 el control en cabeza es inefectivo | **literatura** (bandas de Byram/NWCG). ⚠ La correspondencia medio↔banda es **supuesto declarado** |
 | `I_AGUA_AEREA` | = `I_MAQUINA` (1.731) | kW/m | hasta aquí una descarga deja línea permanente | supuesto |
-| agua `WATER_KILL_ROS` · `WATER_ASSIST` | **9** · **26** | m/min | ⛔⛔ **CORREGIDO 17-sep: son CÓDIGO MUERTO en producción.** Con `USE_INTENSIDAD = True` (que es producción) el agua aérea decide por **intensidad de Byram ≤ `I_AGUA_AEREA` = 1.731 kW/m**, no por velocidad de avance. En el JS el propio comentario dice «umbral VIEJO, sólo para el aviso de la ficha». ⇒ **la pregunta 3 de §6 ya está contestada dentro del modelo** | supuesto muerto |
+| agua `WATER_KILL_ROS` · `WATER_ASSIST` | **9** · **26** | m/min | por debajo de 9 el agua **APAGA** la celda; hasta 26 sólo ayuda | supuesto |
 | `WATER_FACTOR` · `WATER_HOLD` · `WATER_FADE` | 0,04 · 25 · 35 | × · min · min | mientras está mojado la velocidad cae al 4%; aguanta 25 min y se seca en 35 más | supuesto |
 | manguera `HOSE` | alcance 250 · 2,5 m/min · 90 min | m · m/min · min | tendido desde punto accesible | supuesto |
 | `USE_EXTINCTION` (en el motor de propagación) | **False** | — | el motor **no se autoapaga**: toda la extinción es explícita | decisión de diseño |
